@@ -1,0 +1,80 @@
+body {
+  background-color: #F7F6E7;
+  color: blue;
+  text-align: center;
+}
+
+h1 {
+  color: #537791;
+  font-family: 'Slabo 27px', serif;
+  text-align: center;
+}
+
+h2 {
+  color: #537791;
+  font-family: 'Titillium Web', sans-serif;
+  text-align: center;
+}
+
+h3 {
+  color: #537791;
+  font-family: 'Nanum Gothic Coding', monospace;
+  text-align: center;
+}
+
+p {
+  color: #537791;
+  font-family: 'Nanum Gothic Coding', monospace;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: pink;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+a:hover {
+  color: red;
+}
+
+div {
+  background-color: white;
+  margin: 40px;
+  border-radius: 50px;
+  padding: 40px;
+}
+
+
+.img-circle {
+  border-radius: 50%;
+  width: 150px;
+}
+
+.width-image {
+  width: 300px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.flexbox {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center
+}
+
+.flex-item {
+  flex: 1, 0, 20%;  
+}
+
+.flex-body {
+  flex: 1 0 auto;
+}
